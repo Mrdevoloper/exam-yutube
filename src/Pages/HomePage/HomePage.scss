@@ -1,0 +1,233 @@
+.HomePage {
+	position: relative;
+
+	&__inputSearch {
+		width: 700px;
+		height: 40px;
+		background: #ebebeb;
+		font-size: 20px;
+		border-radius: 22px;
+		font-size: 16px;
+		line-height: 20px;
+		padding-left: 20px;
+		border: none;
+		outline: none;
+		margin-top: 15px;
+		opacity: 0.2;
+		color: rgb(10, 10, 10);
+	}
+
+	&::after {
+		content: '';
+		position: absolute;
+		width: 19px;
+		height: 19px;
+		background-image: url(../../Assets/Icon/search.svg);
+		top: 25px;
+		right: 480px;
+	}
+
+	&__wrapperOfNavIcons {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-left: 246px;
+		width: 184px;
+		height: 35px;
+		margin-bottom: 20px;
+	}
+
+	&__warpperOfCamera {
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			background-image: url(../../Assets/Icon/camera.svg);
+			width: 27px;
+			height: 23px;
+			background-repeat: no-repeat;
+		}
+	}
+
+	&__wrapperOfMenu {
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			background-image: url(../../Assets/Icon/menu.svg);
+			width: 23px;
+			background-repeat: no-repeat;
+			height: 23px;
+			background-repeat: no-repeat;
+		}
+	}
+	&__wrapperOfQongiroq {
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			background-image: url(../../Assets/Icon/qongiroq.svg);
+			width: 24px;
+			height: 27px;
+			background-repeat: no-repeat;
+		}
+		&::after {
+			content: '3';
+			font-size: 11px;
+			text-align: center;
+			padding-bottom: 3px;
+			position: absolute;
+			color: white;
+			width: 15px;
+			height: 12px;
+			border-radius: 50%;
+			background-color: red;
+			left: 1em;
+		}
+	}
+	&__wrapperOfUser {
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			background-image: url(../../Assets/Img/Userpic.png);
+			width: 44px;
+			height: 44px;
+			background-repeat: no-repeat;
+			bottom: -38px;
+		}
+	}
+
+	&__wrapperOfNav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&__blairPic {
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+	}
+
+	&__blairWrapper {
+		width: 170px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 26px;
+		margin-left: 10px;
+	}
+
+	&__blairWrapper2 {
+		width: 400px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 50px;
+		margin-left: 10px;
+	}
+
+	&__dollie {
+		font-size: 23px;
+		font-weight: 600;
+		color: white;
+		padding-left: 6px;
+	}
+
+	&__cardImg {
+		width: 190px;
+		height: 120px;
+		border-radius: none;
+		padding: 0;
+		margin: 0;
+		border-radius: 10px;
+	}
+	&__cardImg2 {
+		width: 300px;
+		height: 190px;
+		border-radius: none;
+		padding: 0;
+		margin: 0;
+		border-radius: 10px;
+	}
+	&__about {
+		font-size: 13px;
+		color: #726f6f;
+	}
+	&__cardsALL {
+		display: flex;
+		width: 100px;
+	}
+
+	&__cardPic {
+		padding: 10px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__dblairr {
+		padding-left: 120px;
+	}
+
+	&__Recommended {
+		padding-left: 10px;
+		padding-top: 20px;
+		color: white;
+		margin-top: 20px;
+	}
+	&__dolliee {
+		color: white;
+	}
+
+	&__wrapperTitileUser {
+		width: 1100px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__btnwrapper {
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			background-image: url(../../Assets/Icon/Left.svg);
+			background-repeat: no-repeat;
+			width: 30px;
+			height: 30px;
+			right: 6px;
+		}
+
+		&::after {
+			content: '';
+			position: absolute;
+			background-image: url(../../Assets/Icon/Right.svg);
+			background-repeat: no-repeat;
+			width: 30px;
+			height: 30px;
+			left: 6px;
+		}
+	}
+
+	&__btn3NdBtn {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 220px;
+	}
+	&__sub3 {
+		width: 145px;
+		height: 37px;
+		border-radius: 20px;
+		border: none;
+		background-color: red;
+		margin-top: 30px;
+		color: white;
+	}
+}

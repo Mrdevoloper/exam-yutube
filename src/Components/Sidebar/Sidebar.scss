@@ -1,0 +1,276 @@
+.wrapperSidebar {
+	width: 190px;
+
+	&__youtubeHeaderWiev {
+		width: 45px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 20px;
+		padding-bottom: 25px;
+	}
+
+	&__hamburger {
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			width: 20px;
+			height: 17px;
+			background-repeat: no-repeat;
+			background-image: url(../../Assets/Icon/hamburger.svg);
+			margin-top: 3px;
+		}
+	}
+
+	&__yutubeNDlogo {
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			width: 42px;
+			height: 26px;
+			background-repeat: no-repeat;
+			background-image: url(../../Assets/Icon/Youtube.svg);
+		}
+		&::after {
+			content: '';
+			position: absolute;
+
+			left: 40px;
+			width: 75px;
+			height: 25px;
+			background-repeat: no-repeat;
+			background-image: url(../../Assets/Icon/Yutubetxt.svg);
+		}
+	}
+	&__wrapNavLinks {
+		display: flex;
+		flex-direction: column;
+		padding-top: 20px;
+		padding-left: 5px;
+	}
+
+	&__NavLinks {
+		font-size: 16px;
+		line-height: 20px;
+		color: #ffffff;
+		mix-blend-mode: normal;
+		opacity: 0.5;
+		font-weight: 100;
+		font-family: sans-serif;
+	}
+
+	&__listLink {
+		padding-left: 30px;
+		padding-top: 30px;
+	}
+
+	&__Sidebaricon1 {
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			left: -1px;
+			width: 75px;
+			height: 25px;
+			background-repeat: no-repeat;
+			background-image: url(../../Assets/Icon/HomeIcon.svg);
+		}
+	}
+	&__Sidebaricon2 {
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			left: -1px;
+			width: 75px;
+			height: 25px;
+			background-repeat: no-repeat;
+			background-image: url(../../Assets/Icon/tomchi.svg);
+		}
+	}
+	&__Sidebaricon3 {
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			left: -1px;
+			width: 75px;
+			height: 25px;
+			background-repeat: no-repeat;
+			background-image: url(../../Assets/Icon/subscribtions.svg);
+		}
+	}
+	&__active {
+		color: red;
+		opacity: 1;
+	}
+
+	&__SidebariconSecond1 {
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			left: -1px;
+			width: 75px;
+			height: 25px;
+			background-repeat: no-repeat;
+			background-image: url(../../Assets/Icon/Library.svg);
+		}
+	}
+	&__SidebariconSecond2 {
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			left: -1px;
+			width: 75px;
+			height: 25px;
+			background-repeat: no-repeat;
+			background-image: url(../../Assets/Icon/history.svg);
+		}
+	}
+	&__SidebariconSecond3 {
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			left: -1px;
+			width: 75px;
+			height: 25px;
+			background-repeat: no-repeat;
+			background-image: url(../../Assets/Icon/soat.svg);
+		}
+	}
+
+	&__SidebariconSecond4 {
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			left: -1px;
+			width: 75px;
+			height: 25px;
+			background-repeat: no-repeat;
+			background-image: url(../../Assets/Icon/favourite.svg);
+		}
+	}
+	&__SidebariconSecond5 {
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			width: 75px;
+			left: -1px;
+			height: 25px;
+			background-repeat: no-repeat;
+			background-image: url(../../Assets/Icon/likeHeard.svg);
+		}
+	}
+	&__SidebariconSecond6 {
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			left: -1px;
+			width: 75px;
+			height: 25px;
+			background-repeat: no-repeat;
+			background-image: url(../../Assets/Icon/music.svg);
+		}
+	}
+
+	&__SidebariconSecond7 {
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			left: -1px;
+			width: 75px;
+			height: 25px;
+			background-repeat: no-repeat;
+			background-image: url(../../Assets/Icon/games.svg);
+		}
+	}
+	&__SidebariconSecond8 {
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			left: 3px;
+			width: 75px;
+			height: 25px;
+			background-repeat: no-repeat;
+			background-image: url(../../Assets/Icon/Path.svg);
+		}
+	}
+
+	&__usersimg {
+		// width: 26px;
+		// height: 26px;
+		border-top-left-radius: 50%;
+		border-bottom-left-radius: 50%;
+		border-top-right-radius: 50%;
+		border-bottom-right-radius: 50%;
+	}
+
+	.usersList {
+		display: flex;
+		align-items: center;
+		padding: 0;
+		padding-bottom: 10px;
+	}
+
+	&__NavLinkss {
+		padding-left: 10px;
+		color: dimgray;
+	}
+
+	&__warpperUsers {
+		padding-top: 30px;
+		padding-left: 10px;
+	}
+
+	&__settings {
+		padding-top: 30px;
+	}
+
+	&__NavlinkSet {
+		font-size: 14px;
+		font-weight: 500;
+		padding-left: 45px;
+		color: dimgray;
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			left: 15px;
+			width: 75px;
+			height: 25px;
+			background-repeat: no-repeat;
+			background-image: url(../../Assets/Icon/settings.svg);
+		}
+	}
+}
+
+.hidden {
+	position: absolute;
+	display: none;
+	left: -200%;
+
+}

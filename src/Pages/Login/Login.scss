@@ -1,0 +1,23 @@
+.wrapperr {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 50px;
+	padding-right: 50px;
+	max-width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	margin-top: 160px;
+}
+input {
+	margin: 20px;
+	color: rgb(105, 105, 105);
+}
+
+.center {
+	text-align: center;
+	font-family: sans-serif;
+	color: firebrick;
+}

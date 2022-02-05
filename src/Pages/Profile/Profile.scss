@@ -1,0 +1,266 @@
+.Profile {
+	position: relative;
+
+	&__inputSearch {
+		width: 700px;
+		height: 40px;
+		background: #ebebeb;
+		font-size: 20px;
+		border-radius: 22px;
+		font-size: 16px;
+		line-height: 20px;
+		padding-left: 20px;
+		border: none;
+		outline: none;
+		margin-top: 15px;
+		opacity: 0.2;
+		color: rgb(10, 10, 10);
+	}
+
+	&::after {
+		content: '';
+		position: absolute;
+		width: 19px;
+		height: 19px;
+		background-image: url(../../Assets/Icon/search.svg);
+		top: 25px;
+		right: 550px;
+	}
+
+	&__wrapperOfNavIcons {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-right: 47px;
+		width: 184px;
+		height: 35px;
+		margin-bottom: 20px;
+	}
+
+	&__warpperOfCamera {
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			background-image: url(../../Assets/Icon/camera.svg);
+			width: 27px;
+			height: 23px;
+			background-repeat: no-repeat;
+		}
+	}
+
+	&__wrapperOfMenu {
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			background-image: url(../../Assets/Icon/menu.svg);
+			width: 23px;
+			background-repeat: no-repeat;
+			height: 23px;
+			background-repeat: no-repeat;
+		}
+	}
+	&__wrapperOfQongiroq {
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			background-image: url(../../Assets/Icon/qongiroq.svg);
+			width: 24px;
+			height: 27px;
+			background-repeat: no-repeat;
+		}
+		&::after {
+			content: '3';
+			font-size: 11px;
+			text-align: center;
+			padding-bottom: 3px;
+			position: absolute;
+			color: white;
+			width: 15px;
+			height: 12px;
+			border-radius: 50%;
+			background-color: red;
+			left: 1em;
+		}
+	}
+	&__wrapperOfUser {
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			background-image: url(../../Assets/Img/Userpic.png);
+			width: 44px;
+			height: 44px;
+			background-repeat: no-repeat;
+			bottom: -38px;
+		}
+	}
+
+	&__wrapperOfNav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&__coverImg {
+		margin-left: 20px;
+		margin-top: 6px;
+	}
+
+	&__UserProfile {
+		display: flex;
+		align-items: center;
+		width: 190px;
+		justify-content: space-between;
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+
+	&__userName {
+		display: flex;
+		flex-direction: column;
+	}
+	&__spansub {
+		font-size: 14px;
+		color: #9b9696;
+	}
+
+	&__subscribe {
+		width: 190px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-right: 10px;
+	}
+
+	&__UserProfileWrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__sub {
+		width: 154px;
+		height: 38px;
+		border: none;
+		border-radius: 20px;
+		background-color: red;
+		text-align: center;
+		padding-top: 5px;
+		color: white;
+		font-size: 15px;
+	}
+
+	&__wrapNavuser {
+		width: 750px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+
+	&__active2 {
+		border-bottom: 2px solid red;
+		color: pink;
+	}
+
+	&__NavLinkUser {
+		color: white;
+
+		&:hover {
+			border-bottom: 2px solid red;
+			color: red;
+		}
+	}
+	&__picoq {
+		border-radius: 15px;
+		width: 510px;
+		height: 220px;
+		margin-left: 20px;
+	}
+
+	&__wrapperTextContent {
+		display: flex;
+		flex-direction: column;
+		padding-left: 20px;
+	}
+
+	&__text {
+		width: 516px;
+		height: 80px;
+		padding-left: 5px;
+		padding-top: 20px;
+	}
+
+	&__WarapperVideoText {
+		display: flex;
+		margin-top: 60px;
+	}
+	&__title {
+		width: 420px;
+		height: 58px;
+		padding: 5px;
+	}
+	&__usersCome {
+		display: flex;
+		flex-direction: column;
+		margin-left: 20px;
+		margin-top: -40px;
+	}
+	&__usersCom {
+		display: flex;
+		align-items: center;
+		margin: 10px;
+	}
+	&__avatarPic {
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+	}
+
+	&__FirstName {
+		padding-left: 9px;
+		color: white;
+	}
+
+	&__NAvBarUsers {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__recommendcahnell {
+		color: dimgray;
+	}
+
+	&__views {
+		font-size: 14px;
+		color: #837d7d;
+		padding-top: 30px;
+	}
+
+	&__renderPhoto {
+		border-radius: 50%;
+	}
+	&__renderPictures {
+		display: flex;
+		margin-left: 10px;
+	}
+
+	&__phelps {
+		padding-bottom: 10px;
+		padding-top: 40px;
+		padding-left: 20px;
+	}
+}
+
+h2 {
+	margin: 0;
+}
